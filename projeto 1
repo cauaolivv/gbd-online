@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+ int main()
+ {
+    char escolha;
+    printf("Escolha: \n 1) controle de estoque\n 2) -controle financeiro\n 3) -controle de vendas\n 4) -sair\n ");
+    scanf("%c", &escolha);
+    switch(escolha)
+    {
+        
+        case '1':
+         printf("controle de estoque");
+         break;
+         
+        case '2':
+         printf("controle de vendas");
+         break;
+         
+        case '3':
+         printf("controle financeiro");
+         break;
+         
+         case '4':
+         printf("sair");
+         break;
+         
+       default:
+            printf("escolha invalida");
+            break;
+    
+    }
+    return 0;
+    
+}
