@@ -9,23 +9,23 @@
     {
         
         case '1':
-         printf("controle de estoque");
+         printf(" controle de estoque");
          break;
          
         case '2':
-         printf("controle de vendas");
+         printf(" controle de vendas");
          break;
          
         case '3':
-         printf("controle financeiro");
+         printf(" controle financeiro");
          break;
          
          case '4':
-         printf("sair");
+         printf(" sair");
          break;
          
        default:
-            printf("escolha invalida");
+            printf(" escolha invalida");
             break;
     
     }
