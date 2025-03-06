@@ -8,11 +8,10 @@ void imprimir(int numero){
     numero = numero + 10;
     imprime_resultado(numero);
 }
-int main(){
-    int
- numero = 54;
-    imprimir(numero);
-    printf("%d",numero);
 
+int main(){
+    int numero = 54;
+    imprimir(numero);
+    printf("%d \n",numero);
     return 0;
 }
