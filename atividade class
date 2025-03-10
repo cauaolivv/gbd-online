@@ -1,0 +1,18 @@
+1 -   • Escreva um programa que imprima os números de 1 a 10 usando um loop while.
+
+#include <stdio.h>
+
+ int main(){
+ int i=0;    
+    
+    while(i<=9){
+     i++;   
+    printf("%d ", i);
+    }
+
+    return 0;
+}
+-------------------------------------------------------------------------
+
+2 -  Crie um programa que solicite um número ao usuário e imprima se ele é positivo, negativo ou zero.
+
