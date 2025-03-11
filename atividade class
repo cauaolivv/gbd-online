@@ -53,6 +53,26 @@ int main(){
 
 4 - Escreva um programa que peça ao usuário para adivinhar um número e informe se o palpite está correto.
 
+#include <stdio.h>
+
+ int main(){
+     int n=7;
+     int i;
+     
+    printf("adivinhe o numero!!");
+    scanf("%d", &i);
+    
+    if(n==i){
+        printf("seu palpite está correto!!");
+    }else{
+        printf("seu palpite está errado!!");
+    }
+    return 0;
+ }
+-----------------------------------------------------------------------------
+
+5 - Crie um programa que imprima os números de 10 a 1 em ordem decrescente.
+
 
 
 
