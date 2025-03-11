@@ -16,3 +16,27 @@
 
 2 -  Crie um programa que solicite um número ao usuário e imprima se ele é positivo, negativo ou zero.
 
+int main(){
+int numero;
+
+printf("digite um numero");
+scanf("%d", &numero);
+
+if(numero >=1){
+printf("é positivo!!");
+
+}else if(numero<=-1){
+printf("é negativo!!");
+
+}else{
+printf("é zero.");
+}
+return 0;
+}
+------------------------------------------------------------------------
+
+3 - Faça um programa que conte de 0 a 20, mas só imprima os números pares.
+
+
+
+
