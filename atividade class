@@ -52,7 +52,18 @@ int main(){
 -------------------------------------------------------------------------
 
 4 - Escreva um programa que peça ao usuário para adivinhar um número e informe se o palpite está correto.
+#include <stdio.h>
 
+int main(){
+    int n = 100;
+    while(n<=100 && n>=1){
+        if(n%7==0){
+            printf(" %d", n);
+        }
+        n = n - 1;
+    }
+    return 0;
+}
 #include <stdio.h>
 
  int main(){
@@ -122,4 +133,20 @@ int main(){
 -------------------------------------------------------------------------------
 
 8 - Crie um programa que conte de 1 a 100, mas só imprima os números divisíveis por 7.
+
+#include <stdio.h>
+
+int main(){
+    int n = 100;
+    while(n<=100 && n>=1){
+        if(n%7==0){
+            printf(" %d", n);
+        }
+        n = n - 1;
+    }
+    return 0;
+}
+----------------------------------------------------------------------------------
+
+9 - Faça um programa que peça dois números ao usuário e imprima o maior deles.
 
