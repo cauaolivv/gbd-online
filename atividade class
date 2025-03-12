@@ -87,4 +87,19 @@ int main(){
 
 6 -  Faça um programa que calcule a soma dos números de 1 a 50 usando um loop while.
 
+#include <stdio.h>
+
+int main(){
+    int n = 1;
+    int soma = 0;
+    while(n<=50){
+        soma = soma + n;
+        n++;
+    }
+    printf("%d é a soma dos números de 1 a 50", soma);
+}
+--------------------------------------------------------------------------------
+
+7 - Escreva um programa que solicite a idade do usuário e informe se ele é uma criança, adolescente, adulto ou idoso.
+
 
