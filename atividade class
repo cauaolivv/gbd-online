@@ -102,4 +102,24 @@ int main(){
 
 7 - Escreva um programa que solicite a idade do usuário e informe se ele é uma criança, adolescente, adulto ou idoso.
 
+#include <stdio.h>
+
+int main(){
+   int idade;
+   printf("Digite sua idade: ");
+   scanf("%d", &idade);
+   if(idade<=12){
+       printf("vc é uma criança!!");
+   }else if(idade<=18){
+        printf("vc é um adolecente!");
+   }else if(idade<=59){
+       printf("vc é um adulto!");
+   }else{
+       printf("vc é um idoso!");
+   }
+   return 0;
+}
+-------------------------------------------------------------------------------
+
+8 - Crie um programa que conte de 1 a 100, mas só imprima os números divisíveis por 7.
 
