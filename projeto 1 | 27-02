@@ -98,3 +98,70 @@ void sair(){
     }
     } while(continuar);
 }
+-------------------------------------------------------------------------------------------
+
+MENU E SUBMENU
+
+#include <stdio.h>
+ int financeiro(int fi){
+     if(fi==201){
+         printf("registrar despesas");
+     }else if(fi==202){
+         printf("registrar receitas");
+     }else if(fi==203){
+         printf("consultar saldo");
+     }
+     return fi;
+ }
+ 
+ int estoque(int es){
+     if(es==101){
+         printf("produto a- 50un");
+     }else if(es==102){
+         printf("produto b - 30un ");
+     }else if(es==103){
+         printf("produto c - 20un");
+     }else if(es==104){
+         printf("produto d - 15un");
+     }
+     return es;
+ }
+ 
+ int main(){ 
+     
+    char escolha;
+    printf("Escolha: \n 1) controle de estoque\n 2) -controle vendas\n 3) -controle financeiro\n 4) -sair\n ");
+    scanf("%c", &escolha);
+    switch(escolha)
+    {
+        
+        case '1':
+         int es;
+         printf(" controle de estoque");
+         break;
+         
+        case '2':
+         printf(" controle de vendas");
+         break;
+         
+        case '3':
+        int fi;
+         printf(" controle financeiro");
+         printf("digite o código:");
+         scanf("%d", &fi);
+         financeiro(fi);
+         
+         break;
+         
+         case '4':
+         printf(" sair");
+         break;
+         
+       default:
+            printf(" escolha invalida");
+            break;
+    
+    }
+    return 0;
+    
+}
