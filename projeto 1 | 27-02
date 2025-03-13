@@ -32,3 +32,69 @@
     return 0;
     
 }
+
+------------------------------------------------------------------------------------------------------------------
+MUDANÇA NO DIA 13-03-2025
+
+#include <stdio.h>
+
+void controlef(){
+    printf("controle de estoque\n");
+}
+
+void controlee(){
+    printf("controle de vendas\n");
+}
+
+void controle(){
+    printf("controle financeiro\n");
+}
+
+void sair(){
+    printf("sair\n");
+}
+
+
+
+ int main()
+ {
+    
+    int continuar=1;
+    
+    do
+   
+     {   
+        printf("\n\t Menu \n\n");
+        printf("1. controle de estoque\n");
+        printf("2. controle de vendas\n");
+        printf("3. controle financeiro\n");
+        printf("4. sair\n");
+        
+        scanf("%d", &continuar);
+        
+        switch(continuar)
+    {
+        
+        case 1:
+        controlef();
+         break;
+         
+        case 2:
+        controlee();
+         break;
+         
+        case 3:
+        controle();
+         break;
+         
+         case 4:
+         sair();
+         break;
+         
+       default:
+            printf("escolha invalida");
+            break;
+    
+    }
+    } while(continuar);
+}
