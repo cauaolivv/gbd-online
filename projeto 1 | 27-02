@@ -165,4 +165,16 @@ MENU E SUBMENU
     return 0;
     
 }
+
+int vendas(int vendas){
+     if(ve==301){
+         printf("produto a- R$10.00");
+     }else if(ve==302){
+         printf("produto b - R$20.00");
+     }else if(ve==303){
+         printf("produto c - R$15.00");
+     }else if(ve==304){
+         printf("produto d - R$25.00");
+     }
+     return ve;
 -----------------------------------------------------------------------------------------------------------------------------------------
