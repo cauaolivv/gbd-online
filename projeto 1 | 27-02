@@ -165,3 +165,17 @@ MENU E SUBMENU
     return 0;
     
 }
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+int estoque(int es){
+     if(es==101){
+         printf("produto a- 50un");
+     }else if(es==102){
+         printf("produto b - 30un ");
+     }else if(es==103){
+         printf("produto c - 20un");
+     }else if(es==104){
+         printf("produto d - 15un");
+     }
+     return es;
+ }
